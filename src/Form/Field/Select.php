@@ -418,7 +418,7 @@ EOT;
             'allowClear'  => true,
             'placeholder' => [
                 'id'   => '',
-                'text' => $this->label,
+                'text' => $this->placeholder ?: $this->label,
             ],
         ], $this->config);
 
